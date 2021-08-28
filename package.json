@@ -41,7 +41,7 @@
     "all": true,
     "include": [
       "index.js",
-      "src"
+      "config"
     ]
   },
   "engines": {
