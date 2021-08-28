@@ -1,5 +1,7 @@
 # @dimensionalpocket/release
 
+[![build](https://github.com/dimensionalpocket/release-js/actions/workflows/node.js.yml/badge.svg)](https://github.com/dimensionalpocket/release-js/actions/workflows/node.js.yml) [![Total alerts](https://img.shields.io/lgtm/alerts/g/dimensionalpocket/release-js.svg)](https://lgtm.com/projects/g/dimensionalpocket/release-js/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/dimensionalpocket/release-js.svg)](https://lgtm.com/projects/g/dimensionalpocket/release-js/context:javascript)
+
 This package includes [release-it](https://github.com/release-it/release-it) packages, plugins, and configuration defaults used by other release-able projects:
 
 * `release-it`
@@ -26,22 +28,6 @@ To make `release-it` use the configuration from this library, change the `npm ru
 }
 ```
 
-## `version.json`
+### `version.json`
 
 Upon generating a release, a `version.json` file will be created in the root of the project and committed to the repository. This is to allow packages to be able to retrieve their own version numbers without having to require `package.json`.
-
-### Pre-release
-
-If you want to force a pre-release state in GitHub without changing the version format (note the `--` separator):
-
-```shell
-$ npm run release -- --github.preRelease
-```
-
-Alternatively, to add a `beta.0` suffix to the version number:
-
-```shell
-$ npm run release -- --preRelease=beta
-```
-
-Otherwise `release-it` will set it automatically according to semver.
