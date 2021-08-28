@@ -30,4 +30,6 @@ To make `release-it` use the configuration from this library, change the `npm ru
 
 ### `version.json`
 
-Upon generating a release, a `version.json` file will be created in the root of the project and committed to the repository. This is to allow packages to be able to retrieve their own version numbers without having to require `package.json`.
+Before releasing the first version of your package, create and commit an empty `version.json` file in the root folder. Upon generating a release, the file will then be updated and committed.
+
+Having a `version.json` file allows packages to be able to retrieve their own version numbers without having to require `package.json`, which sometimes can lead to security vulnerabilities for private repos.
