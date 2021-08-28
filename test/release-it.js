@@ -1,19 +1,21 @@
-// const { expect } = require('@dimensionalpocket/development')
-// const release = require('release-it')
-// const defaults = require('../')
+// This spec fails on GitHub Actions when running on tags.
 
-// describe('release-it', function () {
-//   it('works with default options (except only-version)', async function () {
-//     var testOptions = {
-//       'only-version': false,
-//       'dry-run': true,
-//       ci: true // skip all prompts
-//     }
+const { expect } = require('@dimensionalpocket/development')
+const release = require('release-it')
+const defaults = require('../')
 
-//     var options = Object.assign(testOptions, defaults)
-//     options.git.requireCleanWorkingDir = false // will be dirty during tests
+describe('release-it', function () {
+  it('works with default options (except only-version)', async function () {
+    var testOptions = {
+      'only-version': false,
+      'dry-run': true,
+      ci: true // skip all prompts
+    }
 
-//     var output = await release(options)
-//     expect(output.version).to.exist
-//   })
-// })
+    var options = Object.assign(testOptions, defaults)
+    options.git.requireCleanWorkingDir = false // will be dirty during tests
+
+    var output = await release(options)
+    expect(output.version).to.exist
+  })
+})
