@@ -1,11 +1,13 @@
 name: Node.js Build
 
-on: 
-  push: true
+on:
+  push:
+    branches:
+      - '**'
 
-  # release-it specs fail when running on tags.
-  tags-ignore:
-  - '**'
+    # release-it specs fail when running on tags.
+    tags-ignore:
+    - '**'
 
 jobs:
   build:
