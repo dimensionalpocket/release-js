@@ -7,14 +7,6 @@ This package includes [release-it](https://github.com/release-it/release-it) pac
 * `release-it`
 * `release-it/bumper`
 
-## Installation
-
-Install the package directly from GitHub (X.Y.Z == release tag):
-
-```shell
-npm i -D -E github:dimensionalpocket/release-js#X.Y.Z
-```
-
 ## Configuration
 
 To make `release-it` use the configuration from this library, change the `npm run release` command as follows:
@@ -22,7 +14,6 @@ To make `release-it` use the configuration from this library, change the `npm ru
 ```json
 {
   "scripts": {
-    ...,
     "release": "release-it --config ./node_modules/@dimensionalpocket/release/config/default.js"
   },
 }
@@ -33,3 +24,15 @@ To make `release-it` use the configuration from this library, change the `npm ru
 Before releasing the first version of your package, create and commit an empty `version.json` file in the root folder. Upon generating a release, the file will then be updated and committed.
 
 Having a `version.json` file allows packages to be able to retrieve their own version numbers without having to require `package.json`, which sometimes can lead to security vulnerabilities for private repos.
+
+## Installation
+
+Install the package directly from GitHub (X.Y.Z == release tag):
+
+```shell
+npm i -D -E github:dimensionalpocket/release-js#X.Y.Z
+```
+
+## License
+
+MIT
