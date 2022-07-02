@@ -1,6 +1,6 @@
 /* eslint-disable no-template-curly-in-string */
 
-module.exports = {
+export default {
   'only-version': true,
   'disable-metrics': true,
   git: {
