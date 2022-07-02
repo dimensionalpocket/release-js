@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/dimensionalpocket/release-js#readme",
   "dependencies": {
-    "release-it": "14.14.3",
+    "release-it": "15.1.1",
     "@release-it/bumper": "3.0.1"
   },
   "devDependencies": {
