@@ -2,7 +2,6 @@
 
 export default {
   'only-version': true,
-  'disable-metrics': true,
   git: {
     commitMessage: 'chore: release v${version}',
     tagAnnotation: 'v${version}'
