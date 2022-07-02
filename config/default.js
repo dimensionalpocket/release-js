@@ -1,3 +1,3 @@
-import defaults from './defaults.js'
+import defaults from './defaults.cjs'
 
 export default defaults

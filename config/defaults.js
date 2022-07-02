@@ -1,21 +1,3 @@
-/* eslint-disable no-template-curly-in-string */
+import defaults from './default.js'
 
-export default {
-  'only-version': true,
-  git: {
-    commitMessage: 'chore: release v${version}',
-    tagAnnotation: 'v${version}'
-  },
-  github: {
-    release: true,
-    releaseName: 'v${version}'
-  },
-  npm: {
-    publish: false
-  },
-  plugins: {
-    '@release-it/bumper': {
-      out: 'version.json'
-    }
-  }
-}
+export default defaults

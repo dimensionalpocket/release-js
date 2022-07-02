@@ -14,7 +14,7 @@ To make `release-it` use the configuration from this library, change the `npm ru
 ```json
 {
   "scripts": {
-    "release": "release-it --config ./node_modules/@dimensionalpocket/release/config/default.js"
+    "release": "release-it --config ./node_modules/@dimensionalpocket/release/config/default.cjs"
   },
 }
 ```
