@@ -1,3 +1,3 @@
-const defaults = require('./defaults')
+import defaults from './defaults.js'
 
-module.exports = defaults
+export default defaults

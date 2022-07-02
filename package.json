@@ -3,6 +3,7 @@
   "version": "0.2.4",
   "description": "release-it bundle for Node projects.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "npm run lint && NODE_ENV=test c8 mocha",
     "lint": "standardx --fix --verbose",

@@ -1,8 +1,8 @@
 // This spec fails on GitHub Actions when running on tags.
 
-const { expect } = require('@dimensionalpocket/development')
-const release = require('release-it')
-const defaults = require('../')
+import { expect } from '@dimensionalpocket/development'
+import release from 'release-it'
+import defaults from '../index.js'
 
 describe('release-it', function () {
   it('works with default options (except only-version)', async function () {

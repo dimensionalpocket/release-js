@@ -1,9 +1,9 @@
 // @ts-check
 
-const { expect } = require('@dimensionalpocket/development')
+import { expect } from '@dimensionalpocket/development'
 
-const defaults = require('../')
-const defaultsFromConfig = require('../config/default')
+import defaults from '../index.js'
+import defaultsFromConfig from '../config/default.js'
 
 describe('main require', function () {
   it('exports defaults from config', function () {
