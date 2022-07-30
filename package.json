@@ -1,6 +1,6 @@
 {
   "name": "@dimensionalpocket/release",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "release-it bundle for Node projects.",
   "main": "index.js",
   "type": "module",
