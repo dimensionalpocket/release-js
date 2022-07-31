@@ -24,7 +24,7 @@
     "@release-it/bumper": "4.0.0"
   },
   "devDependencies": {
-    "@dimensionalpocket/development": "github:dimensionalpocket/development-js#0.6.1"
+    "@dimensionalpocket/development": "github:dimensionalpocket/development-js#0.7.0"
   },
   "babel": {
     "extends": "./node_modules/@dimensionalpocket/development/babel"
