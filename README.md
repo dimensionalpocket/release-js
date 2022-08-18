@@ -1,3 +1,9 @@
+# Deprecation Notice
+
+This repository has been archived in favor of **Release Please** bundled in [@dimensionalpocket/development](https://github.com/dimensionalpocket/development-js).
+
+Archived README below.
+
 # @dimensionalpocket/release
 
 [![build](https://github.com/dimensionalpocket/release-js/actions/workflows/node.js.yml/badge.svg)](https://github.com/dimensionalpocket/release-js/actions/workflows/node.js.yml) [![Total alerts](https://img.shields.io/lgtm/alerts/g/dimensionalpocket/release-js.svg)](https://lgtm.com/projects/g/dimensionalpocket/release-js/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/dimensionalpocket/release-js.svg)](https://lgtm.com/projects/g/dimensionalpocket/release-js/context:javascript)
